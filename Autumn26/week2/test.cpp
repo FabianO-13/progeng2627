@@ -9,7 +9,7 @@ int Getscore () {
 int main() {
 int score {Getscore()};
 std::string result = "";
-result = (score == 100) ? "good" : (score >= 90 && score < 100) ? "alright" : "shit";
+result = (score == 100) ? "good" : (score >= 90 && score < 100) ? "alright" : "bad";
 std::cout << "your score is " << result;
 return 0;
 }
